@@ -1,0 +1,132 @@
+body {
+    text-align: center;
+}
+#profileimg {
+    margin-bottom:50px;
+    width: 200px;
+    border-radius: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#span1 {
+    font-family:cursive;
+    font-size: 40px;
+    background-image: linear-gradient(to top left , #18FFFF 10% ,#FFEE58 50%,#00BCD4  );
+    color: transparent;
+    -webkit-background-clip:text;
+    background-clip: text;
+    
+}
+h1 {
+    font-family: 'Hachi Maru Pop', cursive;
+}
+h2 {
+    font-family: 'Hachi Maru Pop', cursive;
+    
+}
+p {
+    font-family: 'Prompt', sans-serif;
+}
+#sec1 {
+    background-image: linear-gradient(to top right , #66BB6A,#FF8A65,#FFD872);}
+.di {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+    
+}
+.menu {
+ background-color: white;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    list-style:none;
+    z-index: 10px;
+    cursor: pointer;
+    
+}
+.lists {
+   display: inline;
+    font-family: 'Montserrat', sans-serif;
+  
+    padding-left: 9px;
+    padding-right: 45px;
+   
+}
+#videos {
+    background-image: linear-gradient(to bottom right , #F44336,#FF7043,#FFF176);
+    font-family: 'Hachi Maru Pop', cursive;
+}
+#work {
+    background-image: linear-gradient(to bottom right , #F44336,#FF7043,#FFF176);
+    font-family: 'Hachi Maru Pop', cursive;
+}
+#writings {
+    background-image: linear-gradient(to bottom right , #F44336,#FF7043,#FFF176);
+    font-family: 'Hachi Maru Pop', cursive;
+}
+#contact {
+    background-image: linear-gradient(to bottom right , #18FFFF,#FFFF00,#FF6E40);
+    font-family: 'Hachi Maru Pop', cursive;
+}
+#sec2 {
+    background-image: linear-gradient(to top left ,#18FFFF,#FFFF00,#FF6E40)
+}
+
+
+html {
+    scroll-behavior: smooth;
+    
+}
+a {
+    text-decoration:none;
+    text-shadow: 2px 2px gainsboro;
+}
+.lists:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+#article:hover {
+    color: chartreuse;
+}
+#article {
+    font-size: 20px;
+}
+#applab {
+    width:100%;
+    height: 800px;
+    background-color: #64FFDA;
+}
+#gamelab {
+    width:100%;
+    height: 800px;
+    background-color: chartreuse;;
+}
+#artistlab {
+    width:100%;
+    height: 800px;
+    background-color: coral;
+}
+#dialogflow {
+    width:100%;
+    height: 1000px;
+    background-color: #81D4FA;
+}
+.con h3 {
+    display: inline;
+   
+}
+.con {
+    background-color: red;
+}
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+input{
+    background:grey;
+}
